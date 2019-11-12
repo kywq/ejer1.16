@@ -1,16 +1,116 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Formulario</title>
+    <link rel="stylesheet" href="form.css">
 </head>
+
 <body>
     <main>
-        <form action="" method="get">
-            <input type="button" value="">
-        </form>
+
+        <table align="center" border="1">
+            <caption>
+                <h1>Formulario</h1>
+            </caption>
+            <colgroup>
+                <col style="width: 200px;">
+                <col style="width: 200px;">
+                <col style="width: 200px;">
+                <col style="width: 200px;">
+            </colgroup>
+            <form action="" method="get">
+
+                <tr>
+                    <td>
+                        <p>
+                            Tratamiento: * <br>
+                            <input type="radio" name="tratamiento" id="" required>Sr.
+                            <input type="radio" name="tratamiento" id="" required>Sra.
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Nombre: * <br>
+                            <input type="text" name="nombre" id="" required>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Apellido 1: *
+                            <input type="text" name="apellido1" id="" required>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Apellido 2:
+                            <input type="text" name="apellido1" id="">
+                        </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>
+                            Tipo Doc: * <br>
+                            <select name="doc" id="" style="width: 168px;" required>
+                                <option value="dni">D.N.I.</option>
+                                <option value="nif">N.I.F.</option>
+                                <option value="nie">N.I.E.</option>
+                            </select>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Nº Doc: * <br>
+                            <input type="text" name="ndoc" id="" required>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Fecha de nacimiento: * <br>
+                            <input type="date" name="fehca" id="" style="width: 168px;" required>
+                        </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>
+                            Pa&iacute;s de nacimiento: * <br>
+                            <select name="paisnac" id="" style="width: 168px;" required>
+                                <option value="esp">ESPA&Ntilde;A</option>
+                                <option value="ch">CHINA</option>
+                                <option value="eng">INGLATERRA</option>
+                                <option value="fr">FRANCIA</option>
+                                <option value="it">INTALIA</option>
+                            </select>
+                        </p>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+            </form>
+        </table>
+
     </main>
 </body>
+
 </html>
