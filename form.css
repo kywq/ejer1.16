@@ -2,3 +2,9 @@ body{
     max-width: 1000px;
     margin: auto;
 }
+tr.fondogris{
+    background-color: lightgray;
+}
+table.colapsar{
+    border-collapse: collapse;
+}

@@ -12,9 +12,9 @@
 <body>
     <main>
 
-        <table align="center">
+        <table align="center" class="colapsar" border="0">
             <caption>
-                <h1>Formulario</h1>
+                <h1>Formulario 1</h1>
             </caption>
             <colgroup>
                 <col style="width: 200px;">
@@ -197,14 +197,133 @@
                     </td>
                 </tr>
 
+
+                <tr class="fondogris">
+                    <td>
+                        <p>
+                            Tipo de v&iacute;a: * <br>
+                            <select name="via" id="" style="width: 168px;" required>
+                                <option value="calle">CALLE</option>
+                                <option value="avda">AVENIDA</option>
+                                <option value="plaza">PLAZA</option>
+                                <option value="parque">PARQUE</option>
+                            </select>
+                        </p>
+                    </td>
+                    <td colspan="2">
+                        <p>
+                            Direcci&oacute;n: * <br>
+                            <input type="text" name="direccion" id="" style="width: 330px;">
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            N&uacute;mero: * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Piso:<br>
+                            <input type="number" name="numeroot" id="" required style="width: 50px;">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="number" name="piso" id="" style="width: 50px;">
+                        </p>
+                    </td>
+                </tr>
+                <tr class="fondogris">
+                    <td>
+                        <p>
+                            Urb./Pol./Otros: <br>
+                            <input type="text" name="otros" id="">
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Localidad: * <br>
+                            <input type="text" name="localidad" id="" required>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Provincia: * <br>
+                            <select name="provincia" id="" style="width: 168px;" required>
+                                <option value="vlc">Valencia</option>
+                                <option value="mdr">Madrid</option>
+                                <option value="mur">Murcia</option>
+                                <option value="gal">Galicia</option>
+                                <option value="and">Andalucia</option>
+                            </select>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            C&oacute;digo Postal: * <br>
+                            <input type="number" name="cp" id="" required>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="fondogris">
+                    <td>
+                        <p>
+                            Tel&eacute;fono m&oacute;vil: * <br>
+                            <input type="number" name="tlf" id="" required>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Tel&eacute;fono particular: <br>
+                            <input type="number" name="tlfparticular" id="">
+                        </p>
+                    </td>
+                    <td colspan="2">
+                        <p>
+                            Direcci&oacute;n de e-mail: * <br>
+                            <input type="email" name="email" id="" style="width: 372px;">
+                        </p>
+                    </td>
+                </tr>
+
+                <tr>
+
+                    <td colspan="4">
+                        <hr>
+                        <p>
+                            Para ofrecerle un mejor servicio nos ser&iacute;a &uacute;til conocer si posee en otra
+                            entidad: <br>
+                            <input type="checkbox" name="pesiones" id="">Plan de pensiones&nbsp;
+                            <input type="checkbox" name="fondos" id="">Fondos&nbsp;
+                            <input type="checkbox" name="aciones" id="">Acciones&nbsp;
+                            <input type="checkbox" name="hipoteca" id="">Hipoteca&nbsp;
+                            <input type="checkbox" name="prestamo" id="">Pr&eacute;stamo&nbsp;
+                            <input type="checkbox" name="segurovida" id="">Seguro de Vida&nbsp;
+                        </p>
+                        <hr>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <p style="color: gray;">
+                            Puede consultar en nuestra Web o solicitamos toda la <u>Informaci&oacute;n
+                                Precontractual</u>
+                            de nuestros productos. Al pulsar "Continuar" est&aacute; aceptando la <u>Cl&aacute;usula de
+                                Protecci&oacute;n de datos.</u>
+                            <br>
+                            <small>(*)Los campos marcados con asterisco son obligatiorios.</small>
+                        </p>
+                    </td>
+                    <td>
+                        <button type="submit">
+                            <img src="enviar.PNG" alt="" width="230px" height="60px">
+                        </button>
+                    </td>
+                </tr>
             </form>
         </table>
+        <br>
+        <br>
+        <br>
+        <h1 style="text-align: center;">Formulario 2</h1>
+        <br>
+        <img src="time.PNG" alt="">
 
-        <table align="center" style="color: lightgray;">
 
-            <form action="" method="get"></form>
-        </table>
     </main>
+
 </body>
 
 </html>
